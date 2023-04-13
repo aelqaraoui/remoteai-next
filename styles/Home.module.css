@@ -107,6 +107,17 @@
 .logo {
   position: relative;
 }
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh; /* Adjust this value to set the height of the container */
+}
+
+.centered_text {
+  margin: 0;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

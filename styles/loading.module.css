@@ -1,0 +1,45 @@
+/* LoadingScreen.css */
+.loading_screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    font-family: "Space Mono", monospace, sans-serif;
+  }
+  
+  .loading_text {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .loading_dots {
+    display: inline;
+  }
+  
+  .dot {
+    display: inline-block;
+    animation: dot-pulse 1.5s infinite linear;
+  }
+  
+  .dot_2 {
+    animation-delay: 0.2s;
+  }
+  
+  .dot_3 {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes dot-pulse {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

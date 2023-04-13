@@ -1,0 +1,77 @@
+.job {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .job.active {
+    background-color: rgb(25, 25, 25);
+    border: 1px solid white;
+    border-radius: 5px;
+  }  
+
+  .job:hover {
+    background-color: rgb(25, 25, 25);
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .job h3 {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .job p {
+    margin: 0 auto;
+  }
+  
+  .job_details {
+    flex-grow: 1;
+  }
+  
+  .job_salary {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .job_skills {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .skill {
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .apply_now {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 5px 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: 'Space Mono', monospace, sans-serif; /* Update this line to use "Space Mono" */
+    visibility: hidden;
+  }
+  
+  .apply_now:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+   .job:hover .apply_now{
+    visibility: visible;
+}

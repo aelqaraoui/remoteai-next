@@ -1,0 +1,81 @@
+.login,
+.register,
+.profile-container {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  min-width: 400px;
+  margin: auto;
+}
+
+.login h2,
+.register h2,
+.profile-container h2 {
+  margin-bottom: 20px;
+}
+
+.login form,
+.register form,
+.profile-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login label,
+.register label,
+.profile-container label {
+  font-weight: bold;
+}
+
+.login input,
+.register input,
+.profile-container input{
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login textarea,
+.register textarea,
+.profile-container textarea{
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 100px;
+}
+
+.login button,
+.register button,
+.profile-container button {
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Space Mono', monospace, sans-serif; /* Update this line to use "Space Mono" */
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.login button:hover,
+.register button:hover,
+.profile-container button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.profile-container p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.profile-container label {
+    margin-top: 50px;
+}
