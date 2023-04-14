@@ -31,8 +31,7 @@ export default function Home(props) {
         body: JSON.stringify({ email: session.user.email }),
       }).then(response => response.json())
       .then((response) => {
-        console.log("heeere")
-        fetch(process.env.BACKEND_URL + "/embed", {
+        fetch(process.env.NEXT_PUBLIC_BACKEND_URL + "/embed", {
           method: "POST",
           headers: { 
             "Accept": "application/json",
