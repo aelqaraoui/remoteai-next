@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '@/styles/loading.module.css'
 import homestyles from '@/styles/home.module.css'
 import Layout from '@/components/layout'
@@ -14,12 +13,6 @@ export default function Home(props) {
   const router = useRouter();
   const [jobs, setJobs] = useState([]);
   const [loading2, setLoading2] = useState(true);
-
-  /*useEffect(() => {
-    if (!loading && !session) {
-      router.push("/login");
-    }
-  }, [loading, session, router]);*/
 
   useEffect(() => {
     if(session){
