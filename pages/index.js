@@ -77,7 +77,27 @@ export default function Home(props) {
 
           !session ? (
             <div className={homestyles.container}>
-              <p className={homestyles.centered_text}>Login/Register to get a personalized feed of remote AI jobs.</p>
+              {/*<p className={homestyles.centered_text}>Login/Register to get a personalized feed of remote AI jobs.</p>*/}
+              <p>Dear Reader:</p>
+              <p>On a beautiful late spring afternoon, twenty-five years ago, two young men graduated from the same college. They were very much alike, these two young men. Both had been better than average students, both were personable and both — as young college graduates are — were filled with ambitious dreams for the future.</p>
+              <p>Recently, these men returned to their college for their 25th reunion.</p>
+              <p>They were still very much alike. Both were happily married. Both had three children. And both, it turned out, had gone to work for similar companies after graduation, and were still there.</p>
+              <p>But there was a difference.</p>
+              <p>One of the men was manager of a small department of that company. The other was CTO.</p>
+              <h2><span><strong>What Made The Difference</strong></span></h2>
+              <p>Have you ever wondered, as I have, what makes this kind of difference in people&#x27;s lives? It isn&#x27;t a native intelligence or talent or dedication. It isn&#x27;t that one person wants success and the other doesn&#x27;t.</p>
+              <p>The difference lies in the number of jobs applied for and where they applied during their career.</p>
+              <p>And that is why I am writing to you and to people like you about remoteAI. For that is the whole purpose of remoteAI: to provide its users with opportunities — opportunities that they can seize to advance their careers.</p>
+              <h2><span><strong>A Job Board Unlike Any Other</strong></span></h2>
+              <p>remoteAI is a unique job board that combines artificial intelligence with a user-friendly interface to bring you the most relevant job opportunities from around the world. Our app serves you a personalized feed of job postings tailored to your skills, interests, and career goals. remoteAI is designed to empower you with the knowledge and opportunities you need to continuously grow and advance in your career, helping you stay informed and ahead of the competition.</p>
+              <h2><span><strong>A Free Tool for Your Success</strong></span></h2>
+              <p>We invite you to put our claims to the test by trying remoteAI, absolutely free. This allows you to experience the benefits of our platform and discover how remoteAI can help you take control of your career.</p><p>To get started, register for a new account in the top right corner of this page.</p>
+              <p>About those two college classmates I mentioned at the beginning of this letter: they graduated from college together and got started in the corporate world together. So what made their lives different?</p><p>The one who achieved greater success took control of his career by constantly seeking new opportunities and learning experiences. remoteAI can help you do the same.</p>
+              <h2><span><strong>A Simple Promise</strong></span></h2>
+              <p>I cannot promise you that success will be instantly yours if you start using remoteAI. But I can guarantee that you will find our platform always interesting, always reliable, and always useful.</p>
+              <p>Sincerely,</p><p>Amine ElQaraoui</p>
+              <p>P.S. Don&#x27;t forget to share remoteAI with your friends and colleagues – together, you can support each other in achieving your career goals.</p>
+              <br/>
             </div>
           ) : loading || loading2 ? (
             <div className={styles.loading_screen}>
